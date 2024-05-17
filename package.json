@@ -1,0 +1,19 @@
+{
+  "name": "myfavoritefoodweb",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachoR9/MyFavoriteFoodWeb.git"
+  },
+  "author": "NachoR9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachoR9/MyFavoriteFoodWeb/issues"
+  },
+  "homepage": "https://github.com/NachoR9/MyFavoriteFoodWeb#readme"
+}
