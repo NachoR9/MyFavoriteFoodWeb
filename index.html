@@ -20,45 +20,48 @@
         src="./public/images/brownie banner.jpg"
         alt="banner de brownie"
       />
-      <section>
+      <div class="main-content">
+      <section class="ingredientes-section">
         <h2>Ingredientes</h2>
-        <label for="chocolate-fondant">
-          <input
-            type="checkbox"
-            id="chocolate-fondant"
-            name="chocolate-fondant"
-          />120 gr. de chocolate fondant</label
-        >
-        <label for="mantequilla">
-          <input type="checkbox" id="mantequilla" name="mantequilla" />250 gr.
-          de mantequilla</label
-        >
-        <label for="huevos">
-          <input type="checkbox" id="huevos" name="huevos" />4 huevos</label
-        >
-        <label for="azúcar">
-          <input type="checkbox" id="azúcar" name="azúcar" />250 gr. de
-          azúcar</label
-        >
-        <label for="harina">
-          <input type="checkbox" id="harina" name="harina" />100 gr. de
-          harina</label
-        >
-        <label for="nueces">
-          <input type="checkbox" id="nueces" name="nueces" />120 gr. de
-          nueces</label
-        >
+        <div class="ingredients-container">
+          <label for="chocolate-fondant">
+            <input
+              type="checkbox"
+              id="chocolate-fondant"
+              name="chocolate-fondant"
+            />120 gr. de chocolate fondant</label
+          >
+          <label for="mantequilla">
+            <input type="checkbox" id="mantequilla" name="mantequilla" />250 gr.
+            de mantequilla</label
+          >
+          <label for="huevos">
+            <input type="checkbox" id="huevos" name="huevos" />4 huevos</label
+          >
+          <label for="azúcar">
+            <input type="checkbox" id="azúcar" name="azúcar" />250 gr. de
+            azúcar</label
+          >
+          <label for="harina">
+            <input type="checkbox" id="harina" name="harina" />100 gr. de
+            harina</label
+          >
+          <label for="nueces">
+            <input type="checkbox" id="nueces" name="nueces" />120 gr. de
+            nueces</label
+          >
+        </div>
       </section>
 
-      <section>
+      <section class="time-section">
         <h2>Tiempo</h2>
         <span class="material-symbols-outlined"> schedule </span>
         <span>30:00</span>
       </section>
 
-      <section>
+      <section class="preparation-section">
         <h2>Preparación</h2>
-        <ol>
+        <ol class="preparation">
           <li>
             Precalentar el horno a 185º, y untar un molde rectangular o cuadrado
             con mantequilla. Se puede poner un papel de hornear en la base del
@@ -90,21 +93,19 @@
             chocolate caliente o sirope y una bola de helado de vainilla.
           </li>
         </ol>
-        
       </section>
+      </div>
     </main>
-
+    <hr />
     <footer>
-        <span class="material-symbols-outlined">
-            copyright
-            </span>
-        <span>Creado por NachoR9</span>
-        <span>
-            <img src="./public/images/linkedin.png">
-            <img src="./public/images/instagram.png">
-            <img src="./public/images/facebook.png">
-            <img src="./public/images/twitterx.png">
-        </span>
+      <span class="material-symbols-outlined"> copyright </span>
+      <span class="autor">Creado por NachoR9</span>
+      <span class="icons">
+        <img src="./public/images/linkedin.png" />
+        <img src="./public/images/instagram.png" />
+        <img src="./public/images/facebook.png" />
+        <img src="./public/images/twitterx.png" />
+      </span>
     </footer>
   </body>
 </html>

@@ -1,0 +1,70 @@
+header {
+
+    text-align: center;
+    color: brown;
+
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    
+
+} 
+
+.ingredients-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto;
+
+}
+
+.preparation {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 50px;
+    grid-auto-flow: column;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+    .ingredients-section {
+        grid-column: 1;
+
+    }
+
+    .time-section {
+        grid-column: 2;
+    }
+
+    .preparation-section {
+        grid-column: 1/span 2;
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    .autor {
+        margin-left: 5px;
+    }
+
+    .icons {
+        align-self: flex-end;
+        margin-left: auto;
+        img {
+            width: 30px;
+            height: auto;
+        }
+    }
+}
