@@ -42,6 +42,21 @@ header {
 
     .time-section {
         grid-column: 2;
+
+        .tiempos {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .tiempo-preparacion {
+            font-size: 30px;                            
+        }
+
+        .hourglass {
+            margin-top: 10px;
+            font-size: 30px; 
+        }
     }
 
     .preparation-section {

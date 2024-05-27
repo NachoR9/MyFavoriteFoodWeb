@@ -35,6 +35,18 @@ header {
 .main-content .time-section {
   grid-column: 2;
 }
+.main-content .time-section .tiempos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.main-content .time-section .tiempo-preparacion {
+  font-size: 30px;
+}
+.main-content .time-section .hourglass {
+  margin-top: 10px;
+  font-size: 30px;
+}
 .main-content .preparation-section {
   grid-column: 1/span 2;
 }
